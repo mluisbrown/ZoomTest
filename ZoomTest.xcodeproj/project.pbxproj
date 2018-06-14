@@ -12,6 +12,7 @@
 		74A6402720D18CF0007353A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A6402520D18CF0007353A3 /* Main.storyboard */; };
 		74A6402920D18CF2007353A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A6402820D18CF2007353A3 /* Assets.xcassets */; };
 		74A6402C20D18CF2007353A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A6402A20D18CF2007353A3 /* LaunchScreen.storyboard */; };
+		74F83E5F20D2702400079A40 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74F83E5E20D2702400079A40 /* cat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		74A6402820D18CF2007353A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74A6402B20D18CF2007353A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74A6402D20D18CF2007353A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F83E5E20D2702400079A40 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		74A6401520D18CF0007353A3 = {
 			isa = PBXGroup;
 			children = (
+				74F83E5E20D2702400079A40 /* cat.jpg */,
 				74A6402020D18CF0007353A3 /* ZoomTest */,
 				74A6401F20D18CF0007353A3 /* Products */,
 			);
@@ -125,6 +128,7 @@
 				74A6402C20D18CF2007353A3 /* LaunchScreen.storyboard in Resources */,
 				74A6402920D18CF2007353A3 /* Assets.xcassets in Resources */,
 				74A6402720D18CF0007353A3 /* Main.storyboard in Resources */,
+				74F83E5F20D2702400079A40 /* cat.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
